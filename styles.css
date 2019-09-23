@@ -1,0 +1,324 @@
+
+
+#html {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #cccccc;
+    
+
+}
+
+#list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    width: 960px;
+    text-decoration: none;
+    color: pink;
+}
+
+.logo {
+    float: left;
+    background-color: #4aaaa5;
+    height: 55px;
+    color: white;
+}
+
+.link {
+    float: right;
+}
+
+li a {
+    display: block;
+    
+    font-size: 22px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: darkgray;
+}
+
+#navcontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+
+.container {
+   width: 960px;
+
+}
+
+header{
+    background-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+}
+
+
+.name{
+    font: Arial;
+    padding-left: 33%;
+    padding-top: 100px;
+}
+
+#menu-outer {
+    height: 0px;
+    
+}
+
+.table{
+    margin: 0 auto;
+    float: right;
+    margin: -20px;
+}
+
+ul#horizontal-list {
+    position: absolute;
+    left: 40%;
+    min-width: 200px;
+    list-style: none;
+    
+   
+}
+ul#horizontal-list li {
+    display: inline;
+    padding-top: 40px;
+    
+}
+
+.Contact {
+    overflow-y: scroll;
+    width: 960px;
+    height: 370px;
+    background: white;
+    padding:20px;
+    padding-top: 20px;
+    margin: 80px auto;
+    position: relative;
+    height: 450px;
+}
+
+.folio {
+  overflow-y: scroll;
+  width: 960px;
+  height: 370px;
+  background: white;
+  padding:20px;
+  padding-top: 20px;
+  margin: 80px auto;
+  position: relative;
+  height: 600px;
+}
+
+
+body {
+    background-image: url("https://blog.spoongraphics.co.uk/wp-content/uploads/2012/textures/19.jpg");
+    background-repeat: repeat;
+    
+  }
+
+  .form-items{
+      padding-top: 2px;
+  }
+
+  .form-placement{
+      display: center;
+  }
+
+  .input {
+      width: 940px;
+  }
+
+  #contact-2{
+      padding-bottom: 10px;
+  }
+
+  #Email{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+
+  }
+
+  #Name{
+    font-family: Arial, Helvetica, sans-serif;
+      padding-top: 10px;
+  }
+  
+  #Message{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+footer{
+    background-color: #666666;
+    height: 60px;
+   position: fixed;
+   bottom: 0; 
+   width: 100%;
+   border-top: 5px solid #4aaaa5;
+   
+   text-align: center
+}
+
+
+/* Portfolio*/
+
+
+.port {
+    color: #4aaaa5;
+}
+
+
+
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 15px 0px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+   
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 70%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .contain {
+    display: block;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    height: 200px;
+    
+  }
+    
+#axel {
+    float: left;
+    margin-right: 20px;
+}
+
+#a-story{
+    margin-left: 10px;
+}
+  
+
+  .c-text {
+      position: absolute;
+      font-size: 16;
+      padding: 10px;
+      opacity: 0.85;
+      top: 86%;
+      left: 50%;
+      background-color: #4aaaa5;
+      transform: translate(-50%, -50%);
+      width: 100%;
+
+  }
+
+
+  
+
+.img-me {
+  width: 100%; 
+}
+
+@media screen and (max-width: 768px) {
+
+  .responsive {
+    width: 35%;
+    margin: 6px 0;
+  }
+
+
+  .Contact {
+    font-size: 35px;
+    height: 800px;
+  }
+  .input { 
+    height: 60px;
+  }
+  ::placeholder { 
+    font-size: 35px;
+  }
+  #navcontainer {
+    height: 80px;
+  }
+  .link {
+    float: left;
+  }
+  #axel {
+    margin-right: 20px;
+  }
+
+  
+
+  #a-story {
+    height: 500px;
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+
+ 
+
+
+  .Contact {
+    font-size: 35px;
+    height: 800px;
+  }
+  .input { 
+    height: 70px;
+  }
+  ::placeholder { 
+    font-size: 40px;
+  }
+  #navcontainer {
+    height: 80px;
+  }
+  .link {
+    float: left;
+  }
+  #axel {
+    margin-right: 20px;
+  }
+
+  .responsive {
+    width: 70%;
+  }
+
+
+  #a-story {
+    height: 500px;
+  }
+}
